@@ -6,7 +6,7 @@ Dim ws As Worksheet
 Dim sh As Worksheet
 Set ws = Sheets("Template")
         'loop through listed items from your checklist'
-        Set sh = Sheets("Checklist List")
+        Set sh = Sheets("Your List")
 Application.ScreenUpdating = 0
 
     For i = 2 To Range("A" & Rows.Count).End(xlUp).Row
